@@ -1,0 +1,30 @@
+Candidatos
+
+- id: Integer
+- vaga: Vaga
+- nome: String
+- email: String
+- dataNasc: Date
+
+//gets e sets
+
+
+Vaga
+
+- codigo: Integer
+- candidatos: Set<Candidatos>
+- detalhes: VagaDetalhes
+- contratante: String
+
+// gets e sets
+
+
+VagaDetalhes
+
+- codigo: Integer
+- vaga: Vaga
+- area: String
+- salario: float
+- nomeVaga: String
+
+// gets e sets
